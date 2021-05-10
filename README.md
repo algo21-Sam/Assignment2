@@ -24,3 +24,7 @@ We create our strategy class and define two simply function besides the init one
 In signal function, by inputing the trade date, we're able to judge whether it satisfy the trading condition. The function will return the correct postion base on the comparision of current price and last high/low price, and of course our current position. Ploting the netvalue is just looping the date and update our return & netvalue.
 
 ## 4.Result analysis
+
+![netvalue curve1](https://github.com/algo21-Sam/Assignment2/blob/main/net_value.png)
+
+![netvalue curve2](https://github.com/algo21-Sam/Assignment2/blob/main/net_value_2.png)
