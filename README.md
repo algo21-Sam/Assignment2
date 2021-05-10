@@ -16,6 +16,8 @@ threshold: 30%
 
 total transaction fee: 0.7%
 
+initial status: short position
+
 ## 3.code explaination
 We create our strategy class and define two simply function besides the init one. In init function, we need to use several private variables to record the newest transaction low price, high price, last trading date, etc. 
 
