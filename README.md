@@ -27,4 +27,8 @@ In signal function, by inputing the trade date, we're able to judge whether it s
 
 ![netvalue curve1](https://github.com/algo21-Sam/Assignment2/blob/main/net_value.png)
 
+To be honest, the curve doesn't show up to be quite supportive. Thus, we decide to change the backtest period to 2008/01/02 to 2021/04/19.
+
 ![netvalue curve2](https://github.com/algo21-Sam/Assignment2/blob/main/net_value_2.png)
+
+Though we can see that finally we get a better netvalue by holding the asset for a long period, it doesnt' convince me that the strategy is that bad enough. It's obvious that from 2008-2015 when the market endure severe dropdown, the strategy can perform much better than simply holding it all time. 
